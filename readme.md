@@ -1,3 +1,6 @@
+Original developer: https://github.com/p3ym4n/jdate
+I just bumped carbon version for new laravel versions.
+
 # JDate
 
 Date converter from Jalali to Georgian and vice versa. It has Carbon instance inside and it's Laravel friendly.
@@ -7,7 +10,7 @@ This package is using [carbon](https://github.com/briannesbitt/carbon) as core f
 ## Installation
 
 ```
-$ composer require p3ym4n/jdate
+$ composer require mastani/laravel-jdate
 ```
 
 ### how to use
