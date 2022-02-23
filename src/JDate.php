@@ -671,7 +671,7 @@ class JDate {
                     $replace = $this->year;
                     break;
                 case 'y':
-                    $replace = $this->year % 100;
+                    $replace = sprintf("%02d", $this->year % 100);
                     break;
                 
                 // Time
